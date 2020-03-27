@@ -41,7 +41,7 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "gdpr": false,
-    "uniqCompNum": 17,
+    "uniqCompNum": 18,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png"
   },
@@ -115,7 +115,7 @@
             "fontColor": "#0dba26",
             "fontHoverColor": "#222"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Как он выглядит?</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">HELP</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">HELP</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Tutorials</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#accordion1-a\">КАК ОН ВЫГЛЯДИТ?</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#accordion1-a\">HELP</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#accordion1-a\">Tutorials по серверу</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -144,7 +144,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/main-slide-image-2.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -154,8 +154,24 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "С мини играми и многим другим!",
-                "buttons": "<a data-app-btn=\"true\" href=\"index.html#accordion1-a\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">Как мне зайти?</a>",
+                "buttons": "<a data-app-btn=\"true\" href=\"index.html#accordion1-h\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">Как мне зайти?</a>",
                 "overlayOpacity": "0.7"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1440.jpg",
+                "active": true,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+                "title": "Где мне купить донат?",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "",
+                "buttons": "<a data-app-btn=\"true\" href=\"index.html#pricing-table1-b\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">Перейти</a>",
+                "overlayOpacity": "0.7",
+                "alt": ""
               }
             ]
           },
@@ -336,9 +352,9 @@
         {
           "_params": {
             "paddingTop": 2,
-            "paddingBottom": "1",
+            "paddingBottom": 1,
             "showTitle": true,
-            "showText": true,
+            "showText": false,
             "columns": 2,
             "tabsLeft": "2",
             "tabsRight": "2",
@@ -346,7 +362,7 @@
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/1.jpg",
             "bgColorRadio": true,
-            "bgColor": "#ffffff",
+            "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -356,7 +372,7 @@
             "overlayOpacity": 0.75
           },
           "title": "Помощь",
-          "text": "Тут мы поможем вам если вы где-то не разобрались.",
+          "text": "Suspendisse gravida tristique ante vel pretium. Curabitur pellente sque non urna in euismod. Pellentesque vestibulum, enim a accumsan convallis, enim sem iaculis sem",
           "category1": "Aliquam erat volutpat",
           "category2": "Phasellus non ullamcorper",
           "category3": "Curabitur faucibus viverra",
@@ -365,10 +381,10 @@
           "title2": "well quality management",
           "title3": "cooperative work",
           "title4": "brainstorming",
-          "titleL1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">#1 Как купить донат?<span></span></a>",
-          "textL1": "1. Пиши мне в дискорд: \"Покупаю донат &lt;Название доната&gt;\"<br>2. Я вам даю ссылку чтобы купить.<br>3. Даю права.<br>P.s. Мой дискорд: Ванька#6646",
-          "titleL2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">#2 Как мне зайти на сервер? (его айпи)<span></span></a>",
-          "textL2": "Его айпи: BankaYOUTUB.aternos.me<br>Если не получается зайти пишите в дс",
+          "titleL1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">#1 КАК КУПИТЬ ДОНАТ?<br><span></span></a>",
+          "textL1": "<p>1. Пиши мне в дискорд: \"Покупаю донат &lt;Название доната&gt;\"\r</p><p>2. Я вам даю ссылку чтобы купить.\r</p><p>3. Даю права.\r</p><p>P.s. Мой дискорд: Ванька#6646</p>",
+          "titleL2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">#2 КАК МНЕ ЗАЙТИ НА СЕРВЕР? (ЕГО АЙПИ)<br><span></span></a>",
+          "textL2": "<p>Его айпи: BankaYOUTUB.aternos.me\r</p><p>Если не получается зайти пишите в дс</p>",
           "titleL3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
           "textL3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
           "titleL4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
@@ -377,10 +393,10 @@
           "textL5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
           "titleL6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
           "textL6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
-          "titleR1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Collapsible Group Item #1<span></span></a>",
-          "textR1": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
-          "titleR2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
-          "textR2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">#3 КАК МНЕ ЗАКАЗАТЬ ПЕРЕВОД ПЛАГИНА?<br><span></span></a>",
+          "textR1": "<p>1. Пиши мне в дискорд: \"Покупаю перевод плагина &lt;Название плагина&gt;\"\r</p><p>2. Я вам делаю плагин.\r</p><p>3. Прекидываю вам файлы\r</p><p>P,s., Мой дискорд: Ванька#6646</p>",
+          "titleR2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">#4 Какие правила для меня есть?</a>",
+          "textR2": "<p>1. Не материться.\r</p><p>2. Слушаться админа и смотрящего.\r</p><p>3. Вести себя хорошо.\r</p><p>4. Не гриферить.\r</p><p>5. Не обзывать игроков сервера.\r</p><p>6. Не обманывать игроков сервера.</p>",
           "titleR3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
           "textR3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
           "titleR4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
@@ -393,13 +409,13 @@
             "Theme"
           ],
           "_name": "accordion1",
-          "_anchor": "accordion1-a"
+          "_anchor": "accordion1-h"
         },
         {
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 4,
-            "columns": "2",
+            "columns": "3",
             "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/1.jpg",
@@ -429,17 +445,17 @@
           "text23": "Премиум арены (SkyWars)",
           "text24": "И другие плюшки :)",
           "help2": "* Подойдёт нормальным игрокам",
-          "title3": "Business price",
-          "subtitle3": "Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Curabitur feugiat feugiat and brane",
-          "price3": "<b>$299</b><span>/ month</span>",
-          "text31": "<span>vitae urna</span>eleifend ultrices lorem",
-          "text32": "<span>360Gb</span>uttra posuere ien maximus",
-          "text33": "<span>unlimited</span>massa neque molestie",
-          "text34": "<span>32Tb</span>vulputate auctor",
-          "help3": "* eleifend ultrices lorem uttra posuere sapien maximus massa neque, et molestie ex vulputate auctor",
-          "button1": "<a data-app-btn=\"true\" href=\"index.html#accordion1-a\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">Купить</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"index.html#accordion1-a\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">Купить</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">buy it now</a>",
+          "title3": "Превод плагина",
+          "subtitle3": "Переведу почти любой плагин",
+          "price3": "<b>300 руб.</b>",
+          "text31": "Эксклюзив плагина",
+          "text32": "Красота плагина.",
+          "text33": "Понимание плагина.",
+          "text34": "Не знаю что ещё добавить :)",
+          "help3": "* Для создателей сервера",
+          "button1": "<a data-app-btn=\"true\" href=\"index.html#accordion1-h\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">Купить</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"index.html#accordion1-h\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">Купить</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"index.html#accordion1-h\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">Купить</a>",
           "_tags": [
             "Theme"
           ],
